@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article>
+      <section>
+        <span>
+          <p>Upper left corner | Верхний левый угол</p>
+          <div>
+            <input type="range" max="100" min="0" value="0" id="rangeUpLeftCorner" />
+            <input class="text" type="text" id="textUpLeftCorner" value="0" />
+          </div>
+        </span>
+        <span>
+          <p>Upper right corner | Верхний правый угол</p>
+          <div>
+            <input type="range" max="100" min="0" value="0" id="rangeUpRightCorner" />
+            <input type="text" id="textUpRightCorner" value="0" />
+          </div>
+        </span>
+        <span>
+          <p>Bottom right corner | Нижний правый угол</p>
+          <div>
+            <input type="range" max="100" min="0" value="0" id="rangeDownRightCorner" />
+            <input type="text" id="textDownRightCorner" value="0" />
+          </div>
+        </span>
+        <span>
+          <p>Bottom left corner | Нижний левый угол</p>
+          <div>
+            <input type="range" max="100" min="0" value="0" id="rangeDownLeftCorner" />
+            <input type="text" value="0" id="textDownLeftCorner" />
+          </div>
+        </span>
+      </section>
+      <section>
+        <div id="testArea"></div>
+      </section>
+    </article>
+    <script src="app.js"></script>
+  </body>
+</html>
